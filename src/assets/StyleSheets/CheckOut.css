@@ -1,0 +1,25 @@
+.checkoutContainer {
+    width: 900px;
+    padding: 25px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: #262626;
+}
+.finalizedItems {
+    text-align: right;
+    margin-top: 60px;
+}
+.verifiedItem {
+    color: #157347;
+}
+.closeMessage {
+    text-align: right;
+}
+.closeBtn {
+    font-size: 20px;
+}
+.message {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}

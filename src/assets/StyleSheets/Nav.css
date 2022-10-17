@@ -1,0 +1,81 @@
+.navBrand{
+    color: white;
+    text-decoration: none;
+}
+.navBrand:hover {
+    color: white;
+}
+.navIcon {
+    vertical-align: middle;
+}
+.itemContainer{
+    height: 450px;
+    overflow-y: scroll;
+}
+.itemContainer::-webkit-scrollbar {
+    display: none;
+}
+#cart{ 
+    padding: 20px 30px;
+    display: none;
+    background-color: #1A1A1A;
+    position: absolute;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    z-index: 1;
+}
+.cartIcon {
+    height: 35px;
+    width: 35px;
+}
+.closeCart {
+    text-align: right;
+    color: white;
+}
+.cartItem {
+    padding: 20px;
+    border: 1px solid #262626; 
+    width: inherit;
+    height: 110px;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.itemRemove {
+    font-size: 18px;
+    position: absolute;
+    right: 5px;
+    top:0;
+}
+.cartItem:hover{
+    background-color: black;
+    border: black;
+}
+.itemRemove:hover {
+    color: rgb(231, 71, 71);
+}
+.checkOutBtn {
+    border-top: 1px solid black;
+    text-align: right;
+}
+.itemCount {
+    font-size: 13px;
+    vertical-align: top;
+}
+.SearchBar {
+    border-radius: 30px;
+}
+.SearchInput,.SearchBtn {
+    background-color: transparent;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+.SearchBtn {
+    border: none;
+}
+.searchIcon {
+    height: 25px;
+    width: 25px;
+    color: white;
+}

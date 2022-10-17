@@ -1,0 +1,35 @@
+.homeCarosel {
+    border-radius: 20px;
+    height: 530px;
+}
+.carouselCaption {
+    text-align: left;
+    color: white;
+}
+.quickNav {
+    background-color: #212529;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.quickNavItem {
+    border: 1px solid grey;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 250px;
+    height: 45px;
+}
+.quickNavItem:hover {
+    border: 1px solid #7A1FFF;
+    background-color: #7A1FFF;
+    color: white;
+}
+.quickNavIcon {
+    width: 25px;
+    height: 25px;
+    vertical-align:sub;
+}
+.homeLink:hover {
+    color: white;
+}
